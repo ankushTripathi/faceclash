@@ -10,7 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::model('images','APP\Image');
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/','HomeController@index');
+
+
+Route::resource('images','ImageController');
+Route::resource('game','Gamecontroller');
+

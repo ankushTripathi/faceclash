@@ -13803,6 +13803,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     text-shadow: none;
 }
 
+.text-blue-light{
+    color:#309cfb;
+    text-shadow:none;
+}
+
 .text-orange {
     /*color: #c4c4c4;*/
     /*color: #FD661E;*/
