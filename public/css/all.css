@@ -13803,11 +13803,14 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     text-shadow: none;
 }
 
+<<<<<<< HEAD
 .text-blue-light{
     color:#309cfb;
     text-shadow:none;
 }
 
+=======
+>>>>>>> fffcbe7e6bc8f81ecd5cf27902f022e2fd23dedd
 .text-orange {
     /*color: #c4c4c4;*/
     /*color: #FD661E;*/

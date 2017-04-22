@@ -18,3 +18,9 @@ Route::get('/','HomeController@index');
 Route::resource('images','ImageController');
 Route::resource('game','Gamecontroller');
 
+<<<<<<< HEAD
+=======
+Route::get('/', function () {
+    return view('pages.home');
+});
+>>>>>>> fffcbe7e6bc8f81ecd5cf27902f022e2fd23dedd

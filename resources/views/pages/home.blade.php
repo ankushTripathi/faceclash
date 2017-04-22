@@ -10,9 +10,15 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="jumbotron bg-inherit text-white">
                     <div class="container">
+<<<<<<< HEAD
                         {{--<h1 class="raleway">FACECL<i class="fa fa-smile-o"></i>SH<sup><em class="font70 lato"><span class="text-red">beta</span></em></sup>&nbsp;</h1>--}}
                         <h1 class="khand"><span class="font150 text-blue">FACE<span class="text-white">CLASH</span><sup><em class="font70 lato"><span class="text-red">beta</span></em></sup>&nbsp;</span></h1>
                         <p>Compare Faces.</p>
+=======
+                        {{--<h1 class="raleway">FACECL<i class="fa fa-smile-o"></i>SH<sup><em class="font70 lato"><span class="text-cyan">beta</span></em></sup>&nbsp;</h1>--}}
+                        <h1 class="khand"><span class="font150">FACE<span class="text-red">CLASH</span><sup><em class="font70 lato"><span class="text-cyan">beta</span></em></sup>&nbsp;</span></h1>
+                        <p>Compare faces.</p>
+>>>>>>> fffcbe7e6bc8f81ecd5cf27902f022e2fd23dedd
                         <p class="text-uppercase montserrat ">
                             <a href="{{ url('/game') }}" class="btn btn-cyan">Play game</a>
                             <a href="{{ url('/stats') }}" class="btn btn-white">Check stats</a>
