@@ -1,0 +1,40 @@
+.nav{
+  position: fixed;
+  top:20px;
+  right: 40px;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.semi-trans{
+    opacity:0.8;
+}
+
+.text-dark-semi-trans-back{
+    background-color: rgba(11, 22, 28, 0.57);
+    border-radius:20px;
+}
+
+.ghost-button-border-color {
+  display: inline-block;
+  background-color : rgba(11, 22, 28, 0.57);
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: #66d8ed;
+  text-decoration: none;
+  border-color: rgba(102, 216, 237, 0.4);
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+}

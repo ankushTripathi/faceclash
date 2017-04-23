@@ -24,7 +24,8 @@
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <link href="{{ asset('css/all.css') }}" rel="stylesheet" charset="utf-8" type='text/css' >
+         <link href="{{ asset('css/all.css') }}" rel="stylesheet" charset="utf-8" type='text/css' >
+         <link href="{{ asset('css/custom.css') }}" rel="stylesheet" charset="utf-8" type='text/css' >
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     </head>
     <body id="page-top">
@@ -33,7 +34,7 @@
         <!--[if lt IE 7]>
         <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
         <![endif]-->
-
+        @include('partials.navigation')
         @yield('content')
 
         @include('partials.scripts')

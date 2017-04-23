@@ -11,14 +11,8 @@
                 <div class="jumbotron bg-inherit text-white">
                     <div class="container">
                         {{--<h1 class="raleway">FACECL<i class="fa fa-smile-o"></i>SH<sup><em class="font70 lato"><span class="text-red">beta</span></em></sup>&nbsp;</h1>--}}
-                        <h1 class="khand"><span class="font150 text-blue">FACE<span class="text-white">CLASH</span><sup><em class="font70 lato"><span class="text-red">beta</span></em></sup>&nbsp;</span></h1>
+                        <h1 class="khand"><span class="font150 text-blue semi-trans">FACE<span class="text-white">CL<span class= "text-dark-semi-trans-back">ASH</span></span><sup><em class="font70 lato"><span class="text-red" style = "opacity :0.6" >beta</span></em></sup>&nbsp;</span></h1>
                         <p>Compare Faces.</p>
-                        <p class="text-uppercase montserrat ">
-                            <a href="{{ url('/game') }}" class="btn btn-cyan">Play game</a>
-                            <a href="{{ url('/stats') }}" class="btn btn-white">Check stats</a>
-                            <a href="{{ url('/images') }}" class="btn btn-red">Upload images</a>
-                            <a href="{{ url('/share') }}" class="btn btn-orange">Invite friends</a>
-                        </p>
                     </div>
                 </div>
             </div>
