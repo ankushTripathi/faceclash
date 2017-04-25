@@ -19,6 +19,11 @@ class ImageController extends Controller
 
     }
 
+    public function stats(){
+         $images = Image::all();
+        return view('pages.stats',compact('images'));
+    }
+
     public function store(){
         $path = 'img/models';
         if(is_dir($path))

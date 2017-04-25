@@ -7,13 +7,6 @@
 <div class="hom">
     <div class="container">
         <div class="row text-left align">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-top-50">
-                <ul class="list-inline pull-right">
-                  <li class="active"><a href="{{ url('game') }}" class="btn btn-sm btn-green">Play Game</a></li>
-                  <li><a href="{{ url('images/stats') }}" class="btn btn-sm btn-orange">View Statistics</a></li>
-                  <li><a href="{{ url('share') }}" class="btn btn-sm btn-cyan">Share</a></li>
-                </ul>
-            </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-top-100">
                 @if(count($images) >= 1)
                 @foreach($images as $image)

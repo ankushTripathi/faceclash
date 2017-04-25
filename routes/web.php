@@ -13,7 +13,7 @@
 Route::model('images','APP\Image');
 
 Route::get('/','HomeController@index');
-
+Route::get('/stats','ImageController@stats');
 
 Route::resource('images','ImageController');
 Route::resource('game','GameController');

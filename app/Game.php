@@ -3,6 +3,8 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Image as Image;
+use Illuminate\Support\Facades\DB as DB;
 
 class Game extends Model
 {
@@ -24,9 +26,9 @@ class Game extends Model
         return ROUND($score + $k*($actual - $expected));
     }
     public static function rank($score,$losses,$wins){
-        if($wins!==0)
-            return ROUND($score/(1+($losses/$wins)));
+        if(!($losses == 0 ))
+            return ROUND($score/(1+($wins/$losses)));
         else
-            return ROUND($score/(1+($losses/0.1)));
+            return ROUND($score/(1+($wins/0.1)));
     }
 }

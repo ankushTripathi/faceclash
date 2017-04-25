@@ -17,8 +17,8 @@
     });
 
     $(document).ready(function() {
-        $('.pickoption').click(function(event){
-            event.preventDefault();
+        $('.pickoption').click(function(event){            
+            event.preventDefault();           
             $(this).parents('form:first').submit();
             $('#left').toggleClass('bounceInLeft bounceOutRight');
 //            $(this).find('img').removeClass('bounceInLeft bounceInRight').addClass('hinge');
